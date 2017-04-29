@@ -1,26 +1,121 @@
-<html>
-  <head>
-    <title>Sample "Hello, Hackathon" Application</title>
-  </head>
-  <body bgcolor=white>
+<!DOCTYPE html>
+<!--author: onlyayans@gmail.com-->
+<!--hackathon-2017-Bangalore-->
+<html lang="en-us">
+<head>
+<script type="text/javascript"
+	src="JavaScriptFiles/StoreDataSourceLinks.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <table border="0" cellpadding="10">
-      <tr>
-        <td>
-          <img src="images/springsource.png">
-        </td>
-        <td>
-          <h1>Sample "Hello, World" Application</h1>
-        </td>
-      </tr>
-    </table>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.tileGreen {
+	font-family:"Verdana";
+	text-align: center;
+	float: left;
+	margin: 35px;
+	padding: 15px;
+	max-width: 250px;
+	height: 250px;
+	border: 1px solid black;
+	background-color: #D6EAF8;
+	box-shadow: 10px 10px 5px #888888;
+}
 
-    <p>This is the home page for the HelloWorld Web application. </p>
-    <p>To prove that they work, you can execute either of the following links:
-    <ul>
-      <li>To a <a href="hello.jsp">JSP page</a>.
-      <li>To a <a href="hello">servlet</a>.
-    </ul>
+.tileRed {
+	font-family:"Verdana";
+	text-align: center;
+	float: left;
+	margin: 5px;
+	padding: 15px;
+	max-width: 250px;
+	height: 250px;
+	border: 1px solid black;
+	background-color: #AED6F1;
+	box-shadow: 10px 10px 5px #888888;
+}
 
-  </body>
+.hdr {
+	font-family:"Verdana";
+	position: absolute;
+	right: 0;
+	left: 0;
+	background-color: #efefef;
+	text-align: center;
+}
+
+.footer {
+	font-family:"Verdana";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #efefef;
+	text-align: center;
+}
+</style>
+</head>
+<div class="hdr">
+<h1>Fight Fire</h1>
+</div>
+<p>
+	<a href="MY WEBSITE LINK" target="_blank"> <img
+		src="images/fire.jpg" style='width: 101%;' width="1260" height="200"
+		border="0" alt="Null">
+	</a>
+</p>
+
+<body bgcolor=#FEF9E7>
+
+	<div class="tileGreen">
+		<h2 onclick="msg()">
+			<u>Fire Monitoring</u>
+		</h2>
+		<p>London is the capital city of England.</p>
+		<p>It is the most populous city in the United Kingdom, with a
+			metropolitan area of over 13 million inhabitants.</p>
+	</div>
+
+	<div class="tileRed">
+		<h2>
+			<u>Crowd Sourced Data</u>
+		</h2>
+		<p>Paris is the capital of France.</p>
+		<p>The Paris area is one of the largest population centers in
+			Europe, with more than 12 million inhabitants.</p>
+	</div>
+
+	<div class="tileGreen">
+		<h2>
+			<u>Sattelite Data</u>
+		</h2>
+		<p>Tokyo is the capital of Japan.</p>
+		<p>It is the center of the Greater Tokyo Area, and the most
+			populous metropolitan area in the world.</p>
+	</div>
+
+	<div class="tileRed">
+		<h2>
+			<u>New York</u>
+		</h2>
+		<p>The City of New York is the most populous city in the United
+			States.</p>
+		<p>New York is an important center for international diplomacy as the cultural capital of the
+			world.</p>
+	</div>
+
+</body>
+
+<div class="footer">
+	<ul>
+		<a href="google.com">About</a>
+		<a href="google.com">Sources</a>
+		<a href="google.com">Help</a>
+		<a href="mailto:onlyayans@gmail.com">Contact Us</a>
+	</ul>
+</div>
 </html>
