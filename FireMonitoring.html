@@ -3,16 +3,13 @@
 <!--hackathon-2017-Bangalore-->
 <html lang="en-us">
 <head>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-
-<script type="text/javascript" src="JsonData/twitterResponse.jsonp"></script>
-
 <script type="text/javascript"
 	src="JavaScriptFiles/StoreDataSourceLinks.js"></script>
 
 <script type="text/javascript" src="JavaScriptFiles/ReadJsonFile.js"></script>
 
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -65,51 +62,38 @@
 }
 </style>
 </head>
+
 <div class="hdr">
 	<h1>Fight Fire</h1>
 </div>
 <p>
-	<a href="http://www.fire.uni-freiburg.de/photos/in/in.htm"
-		target="_blank"> <img src="images/fireCool.jpg"
-		style='width: 101%;' width="1260" height="200" border="0" alt="Null">
+	<a href="MY WEBSITE LINK" target="_blank"> <img
+		src="images/fireCool.jpg" style='width: 101%;' width="1260"
+		height="200" border="0" alt="Null">
 	</a>
 </p>
 
 <body bgcolor=#FEF9E7>
 
-	<div class="tileGreen" onclick="monitorFire()">
-		<h2>
-			<u>Fire Monitoring</u>
+	<div class="tileGreen">
+		<h2 onclick="msg()">
+			<u>Best Paths Out</u>
 		</h2>
-		<p>Forest fires causes immediate damage and extreme health risks
-			due to smoke pollution.</p>
-		<p>Increasing due to increased drought, increased temperatures,
-			and human-driven changes.</p>
+		<p>Escape route, who need it the most!</p>
 	</div>
 
 	<div class="tileRed">
 		<h2>
-			<u>Crowd Sourced Data</u>
+			<u>Best Paths</u>
 		</h2>
-		<p>Data from people on the ground near areas of concern, to help
-			firefighters.</p>
-		<p>Origin of fire, Path of fire.</p>
+		<p>Available for rescue or fire management vehicles to enter.</p>
 	</div>
 
-	<div class="tileGreen" onclick="ready()">
+	<div class="tileGreen">
 		<h2>
-			<u>Satellite Data</u>
+			<u>Estimate</u>
 		</h2>
-		<p>See the entire landscape and help with valuable information.</p>
-		<p>Best paths for rescue, Best paths to help people evacuate.</p>
-	</div>
-
-	<div class="tileRed" onclick="getNewsFeed()">
-		<h2>
-			<u>News Feed</u>
-		</h2>
-		<p>Get the latest news of the affected areas.</p>
-		<p>Awareness towards forest fire.</p>
+		<p>Where post-fire effects will be the strongest.</p>
 	</div>
 
 </body>
